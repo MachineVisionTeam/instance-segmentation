@@ -1,5 +1,6 @@
 # instance-segmentation
 A collection of various instance segmentation methods
+- Segment Anything Model 2 (SAM2)
 - Segment Anything Model (SAM)
 - SAMS-Net
 - RCNN
