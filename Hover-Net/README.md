@@ -55,3 +55,17 @@ Here's an example of a predicted image from our model:
 ![Sample Prediction](test/visualization/output.png)
 
 This image shows nuclei segmentation and classification on a histopathology sample.
+
+![HoverNet Performance Comparison](test/visualization/prediction.png)
+
+This image shows:
+- Left: Original image
+- Middle: Predicted segmentation and classification
+- Right: Ground truth mask
+
+The color coding represents different nuclei types:
+- RED: Neoplastic
+- GREEN: Inflammatory
+- BLUE: Connective/Soft tissue
+- BROWN: Dead
+- ORANGE: Epithelial
