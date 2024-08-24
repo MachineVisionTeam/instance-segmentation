@@ -52,6 +52,6 @@ We implement the HoverNet architecture. Details can be found in `docs/model.rst`
 
 Here's an example of a predicted image from our model:
 
-![Sample Prediction](tests/visualization/output.png)
+![Sample Prediction](test/visualization/output.png)
 
 This image shows nuclei segmentation and classification on a histopathology sample.
