@@ -4,7 +4,11 @@ Training HoverNet
 Setup
 -----
 1. Ensure you have prepared the data as described in `HoverNet-data.ipynb`.
-2. Configure the training parameters in the HoverNet configuration file.
+2. Download the model checkpoint trained on the PanNuke dataset from:
+
+   `https://drive.google.com/file/d/1SbSArI3KOOWHxRlxnjchO7_MbWzB4lNR/view`.
+
+3. Configure the training parameters in the HoverNet configuration file.
 
 Configuration
 -------------
@@ -22,7 +26,7 @@ To start training, you can run the `HoverNet-train.ipynb` notebook. Inside this 
 
       !python run_train.py --gpu='0'
 
-This command will execute the training code, utilizing the datasets located in the `train` and `val` folders that were set up through `HoverNet-data.ipynb`.
+This command will execute the training code, utilizing the datasets located in the `train` and `val` folders that were set up through `HoverNet-data.ipynb`, and using the downloaded model checkpoint.
 
 Validation Results
 ------------------
