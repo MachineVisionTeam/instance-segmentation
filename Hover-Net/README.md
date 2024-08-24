@@ -48,3 +48,10 @@ This project uses the PanNuke dataset. For more information, see `docs/dataset.r
 
 We implement the HoverNet architecture. Details can be found in `docs/model.rst`.
 
+## Sample Results
+
+Here's an example of a predicted image from our model:
+
+![Sample Prediction](tests/visualization/output.png)
+
+This image shows nuclei segmentation and classification on a histopathology sample.
