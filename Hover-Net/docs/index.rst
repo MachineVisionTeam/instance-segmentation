@@ -39,8 +39,7 @@ This project implements the HoverNet architecture for nuclei instance segmentati
 Key Features
 ~~~~~~~~~~~~
 
-- Data preparation pipeline for PanNuke dataset
-- Implementation of HoverNet architecture
-- Training and inference scripts
-- Visualization tools for results
-
+* Data preparation pipeline for PanNuke dataset
+* Implementation of HoverNet architecture
+* Training and inference scripts
+* Visualization of results
