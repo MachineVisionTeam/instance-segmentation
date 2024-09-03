@@ -14,8 +14,8 @@ The dataset should be organized into the following format:
    /path/to/dataset/
    ├── train/
    │   ├── rgb/
-   │   │   ├── image_001.jpg
-   │   │   ├── image_002.jpg
+   │   │   ├── image_001.png
+   │   │   ├── image_002.png
    │   │   └── ...
    │   ├── mask/
    │   │   ├── mask_001.png
@@ -27,8 +27,8 @@ The dataset should be organized into the following format:
    │       └── ...
    ├── val/
    │   ├── rgb/
-   │   │   ├── image_103.jpg
-   │   │   ├── image_104.jpg
+   │   │   ├── image_103.png
+   │   │   ├── image_104.png
    │   │   └── ...
    │   ├── mask/
    │   │   ├── mask_103.png
@@ -40,8 +40,8 @@ The dataset should be organized into the following format:
    │       └── ...
    └── test/
        ├── rgb/
-       │   ├── image_126.jpg
-       │   ├── image_127.jpg
+       │   ├── image_126.png
+       │   ├── image_127.png
        │   └── ...
        ├── mask/
        │   ├── mask_126.png
@@ -55,10 +55,8 @@ The dataset should be organized into the following format:
 Dataset Components
 ==================
 
-1. **RGB Images**: Stored in the `rgb/` directory under each set (`train`, `val`, `test`). These are the input images in JPG format.
-2. **Masks**: Stored in the `mask/` directory under each set (`train`, `val`, `test`). Masks are binary images in PNG format that correspond to each RGB image, where:
-   - **0** represents the background.
-   - **1** represents the object of interest.
+1. **RGB Images**: Stored in the `rgb/` directory under each set (`train`, `val`, `test`). These are the input images in PNG format.
+2. **Masks**: Stored in the `mask/` directory under each set (`train`, `val`, `test`). 
 3. **Annotations**: Stored in the `annotation/` directory under each set (`train`, `val`, `test`). Each CSV file contains metadata and annotations related to the corresponding image.
 
 Data Splitting
