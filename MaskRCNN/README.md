@@ -50,9 +50,9 @@ We implement the MaskRCNN architecture. Details can be found in `docs/model.rst`
 
 Here's an example of a Ground_truth image :
 
-![Sample Prediction](tests/visualization/output.png)
+![Sample GroundTruth](test/output_predictions1/ground_truth_19_new.png)
 
 This image shows predicted nuclei segmentation.
 
-![MaskRCNN Performance Comparison](tests/visualization/prediction.png)
+![MaskRCNN Performance](test/output_predictions1/predictions_19_new.png)
 
